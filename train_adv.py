@@ -10,7 +10,7 @@ import torch.multiprocessing as mp
 import numpy as np
 import open3d as o3d
 import random
-from model_bn import AutoEncoderBN
+from model_with_extra_bn import AutoEncoderBN
 from loss import ChamferDistance, EarthMoverDistance
 
 from dataset.dataset import ShapeNet, ShapeNetAdv, collate_fn, collate_fn_adv
