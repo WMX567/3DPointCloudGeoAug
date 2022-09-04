@@ -11,6 +11,7 @@ Point Completion Network [arXiv](https://arxiv.org/pdf/1808.00671.pdf)
 * CUDA 10.1.243
 * Open3d
 * pyemd
+* PyTorch3D
 
 ### Dataset
 ShapeNet [link](https://shapenet.org/)
