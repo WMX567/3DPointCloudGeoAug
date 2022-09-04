@@ -14,15 +14,20 @@ Point Completion Network [arXiv](https://arxiv.org/pdf/1808.00671.pdf)
 
 ### Dataset
 ShapeNet [link](https://shapenet.org/)
-To prepare the data, please use following commands
-```bash
-python save
- ```
 
 ### Run Experiments
+Please change the paths, information of dataset and the directory of codes according to your need. The .sh files provide the method about how we run the experiments. 
 * Prepare Data
  ```bash
 python save_data.py
+ ```
+* Prepare Minimum Absolute Curvature Direction
+ ```bash
+python principal_direction.py
+ ```
+ * Prepare Normal Vectors
+  ```bash
+python normal.py
  ```
 * No Adversarial Training
  ```bash
