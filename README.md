@@ -23,7 +23,7 @@ python save_data.py
  ```
 * Prepare Minimum Absolute Curvature Direction
  ```bash
-python principal_direction.py
+python principal_directions.py
  ```
  * Prepare Normal Vectors
   ```bash
