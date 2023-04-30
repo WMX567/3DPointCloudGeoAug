@@ -1,5 +1,5 @@
 ## 3D Point Cloud Completion with Geometric-Aware Adversarial Augmentation
-This repository contains the implementation for the paper "Point Cloud Completion with Geometric-Aware Adversarial Augmentation", ICPR 2022.
+This repository contains the official implementation for the paper "Point Cloud Completion with Geometric-Aware Adversarial Augmentation", ICPR 2022.
 
 ### Models
 
