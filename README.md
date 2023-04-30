@@ -3,7 +3,7 @@ This repository contains the implementation for the paper "Point Cloud Completio
 
 ### Models
 
-Point Completion Network [arXiv](https://arxiv.org/pdf/1808.00671.pdf)
+Point Completion Network [paper](https://arxiv.org/abs/1808.00671)
 
 ### Dependencies
 * Python 3.7.9
@@ -45,10 +45,12 @@ python train_adv_n.py -n 1 -g 4 -nr 0 --adv 1
  
  ### Citation
  ```
-@article{wu20213d,
-  title={3D Point Cloud Completion with Geometric-Aware Adversarial Augmentation},
+@inproceedings{wu20223d,
+  title={3D point cloud completion with geometric-aware adversarial augmentation},
   author={Wu, Mengxi and Huang, Hao and Fang, Yi},
-  journal={arXiv preprint arXiv:2109.10161},
-  year={2021}
+  booktitle={2022 26th International Conference on Pattern Recognition (ICPR)},
+  pages={4001--4007},
+  year={2022},
+  organization={IEEE}
 }
 ```
