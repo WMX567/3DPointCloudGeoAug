@@ -15,4 +15,4 @@ module purge
 singularity exec \
 	    --overlay /scratch/mw4355/env/overlay-15GB-500K.ext3 \
 	    /scratch/work/public/singularity/cuda11.1.1-cudnn8-devel-ubuntu20.04.sif \
-	    /bin/bash -c "source /ext3/env.sh; conda activate run; python principal_directions.py"
+	    /bin/bash -c "source /ext3/env.sh; conda activate run; python min_directions.py"
